@@ -1,0 +1,54 @@
+
+.container {
+  border: 2px solid snow;
+  display: flex;
+}
+
+.week {
+  display: inline-flex;
+  flex-grow: 3;
+}
+
+.row {
+  min-height: 200px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.starter {
+  border: 1px solid white;
+}
+
+
+
+
+
+
+
+
+
+
+.description {
+  padding: 5px;
+}
+
+
+
+/* 
+.starter {
+  border: 1px solid #466995;
+  margin: 10px;
+  width: 100%;
+  text-align: center; 
+ 
+}
+  
+  .starter img {
+    width: 100%; 
+    height: auto; 
+  }
+   */
+  
