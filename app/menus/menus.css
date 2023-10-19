@@ -1,25 +1,28 @@
 
 .container {
-  border: 2px solid snow;
+  border: 0.1px solid snow;
   display: flex;
+  flex-direction: column;
 }
 
-.week {
-  display: inline-flex;
-  flex-grow: 3;
-}
+
+
 
 .row {
   min-height: 200px;
   display: flex;
   flex-wrap: wrap;
-  flex-direction: row;
   justify-content: space-around;
   align-items: center;
 }
 
 .starter {
-  border: 1px solid white;
+  width: 250px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 
@@ -32,7 +35,7 @@
 
 
 .description {
-  padding: 5px;
+  padding: 10px;
 }
 
 
