@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 const History = () => {
   return (
-    <div className="flex min-h-screen flex-col items-center text-center pt-4 p-2 z-10">
+    <div className="flex min-h-screen flex-col items-center text-center pt-4 p-2 z-20">
       <h1 className="text-center text-3xl mb-4" >Our brief history</h1>
       <p className="text-lg mb-4">
       The roots of 101 Bistro trace back to 1999. A small kebab shop named "Kebabhúsid," meaning

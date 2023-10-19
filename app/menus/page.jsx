@@ -3,7 +3,7 @@ import './menus.css';
 
 const Menus = () => {
   return (
-    <div className="flex min-h-screen flex-col items-center text-center pt-48 p-2 z-10 w-full h-full">
+    <div className="flex min-h-screen flex-col items-center text-center pt-48 p-2 z-20 w-full h-full  ">
       <div>
         <h1 className="text-center text-4xl mb-4">Our Menu</h1>
         <h1 className="text-center italic text-2xl mb-4">For allergy/intolerance information please call us: +354 588-0015</h1>
