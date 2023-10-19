@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 const Jobs = () => {
   return (
-    <div className="flex min-h-screen flex-col items-center justify-between p-2 pt-48">
+    <div className="flex min-h-screen flex-col items-center justify-between p-2 pt-48 text-white ">
        <div className=" z-10">
       <h1 className="text-center text-4xl mb-4" >Job Openings</h1>
     <p className="text-xl text-center font-cursive italic mx-4">Join Our Team</p>
