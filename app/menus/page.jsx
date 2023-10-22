@@ -147,9 +147,9 @@ const Menus = () => {
         </div>
 </div>
 <div>
-  <p>add falafel balls: 950 kr.</p>
-  <p>add chicken and bacon: 1050 kr.</p>
-  <p>add lamb: 1550 kr.</p>
+  <p>Add falafel balls: 950 kr.</p>
+  <p>Add chicken and bacon: 1050 kr.</p>
+  <p>Add lamb: 1550 kr.</p>
 </div>
       
 
