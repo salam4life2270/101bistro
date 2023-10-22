@@ -22,7 +22,7 @@ const Contact = () => {
       </section>
       <section className="mt-10">
       <h1 className="text-center text-2xl mb-4" >Opening Hours</h1>
-      <p className="text-xl text-center font-cursive italic mx-4">Come Visit</p>
+      <p className="text-2xl text-center font-cursive italic mx-4">Come Visit</p>
       <p className="text-lg mb-4 mt-4">
       Mon - Fri: 11:00am - 10:30pm
       </p>

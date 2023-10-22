@@ -17,13 +17,13 @@ const Imagee = () => {
   <div className="absolute inset-0 bg-black opacity-30"></div>
 
   {/* Content */}
-  <div className="absolute inset-y-0 left-0 w-full flex flex-col items-start justify-center text-white px-4 md:px-8">
-    <div className="flex flex-row">
-      <h1 className="text-2xl mx-4">Eat.</h1>
-      <h1 className="text-2xl mx-4">Drink.</h1>
-      <h1 className="text-2xl mx-4">Relax.</h1>
+  <div className="absolute inset-y-0 left-0 w-full flex flex-col items-start justify-center text-white px-1 md:px-8">
+    <div className="flex flex-row justify-start ">
+      <h1 className="text-2xl mx-1">Eat.</h1>
+      <h1 className="text-2xl mx-1">Drink.</h1>
+      <h1 className="text-2xl mx-1">Relax.</h1>
     </div>
-    <p className="text-xl font-cursive italic mx-4">Treat yourself</p>
+    <p className="text-2xl font-cursive italic mx-1">Treat yourself</p>
   </div>
 </div>
 
