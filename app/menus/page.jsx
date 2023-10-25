@@ -323,29 +323,32 @@ const Menus = () => {
           <div className='row'>
 
         <div class="starter">
-          <img src="./garlicb.jpeg" alt=""  className=" w-88 h-48 "  />
+          <img src="./mammamia.jpeg" alt=""  className=" w-88 h-48 "  />
           <div class="description">
-            <h3 className='text-2xl mb-2'>Mozzarella Sticks</h3>
-            <p className='mb-5'>Deep fried mozzarella sticks, served with fries and marinara sauce</p>
-            <p className='text-2xl'>2.250 kr.</p>
+            <h3 className='text-2xl mb-2'>Mamma Mia</h3>
+            <p className='mb-5'>Marinara, mozzarella, pepperoni, mushrooms, red onions</p>
+            <p className='text-2xl'>11" 3.250 kr.</p>
+            <p className='text-2xl'>15" 4.150 kr.</p>
           </div>
         </div>
 
         <div className="starter">
-          <img src="./onion.jpeg" alt=""  className=" w-88 h-48 "  />
+          <img src="./margherita.jpeg" alt=""  className=" w-88 h-48 "  />
           <div className="description">
-            <h3 className='text-2xl'>Baba Ganoush</h3>
-            <p>Charred eggplants, yogurt, walnuts, garlic and olive oil</p>
-            <p className='text-2xl'>1.650 kr.</p>
+            <h3 className='text-2xl'>Margherita Napoletana</h3>
+            <p>Marinara, fresh mozzarella, basil, olive oil</p>
+            <p className='text-2xl'>11" 2.950 kr.</p>
+            <p className='text-2xl'>15" 3.750 kr.</p>
           </div>
         </div>
 
         <div class="starter">
-          <img src="./calamari.jpeg" alt=""  className=" w-88 h-48 "  />
+          <img src="./torino.jpeg" alt=""  className=" w-88 h-48 "  />
           <div class="description">
-            <h3 className='text-2xl mb-2'>Hummus</h3>
-            <p className='mb-5'>Mashed chickpeas, tahini, olive oil</p>
-            <p className='text-2xl'>1.650 kr.</p>
+            <h3 className='text-2xl mb-2'>Torino</h3>
+            <p className='mb-5'>Marinara, mozzarella, chicken, mushrooms, bell peppers</p>
+            <p className='text-2xl'>11" 3.650 kr.</p>
+            <p className='text-2xl'>15" 4.350 kr.</p>
           </div>
         </div>
 
@@ -356,38 +359,82 @@ const Menus = () => {
 
 
         <div class="starter">
-          <img src="./onion.jpeg" alt=""  className="w-25 h-25"  />
+          <img src="./creamy.jpeg" alt=""  className="w-25 h-25"  />
           <div class="description">
-            <h3 className='text-2xl mb-2'>Onion Rings</h3>
-            <p className='mb-5'>Battered onion rings served with homemade marinara sauce</p>
-            <p className='text-2xl'>1.550 kr.</p>
+            <h3 className='text-2xl mb-2'>Creamy Mexicana</h3>
+            <p className='mb-5'>Marinara, mozzarella, chicken, jalapenos, red onions, cream cheese, garlic oil</p>
+            <p className='text-2xl'>11" 3.650 kr.</p>
+            <p className='text-2xl'>15" 4.350 kr.</p>
           </div>
         </div>
 
         <div class="starter">
-          <img src="./fries.jpeg" alt=""  className="w-25 h-25"  />
+          <img src="./vege.jpeg" alt=""  className="w-25 h-25"  />
           <div class="description">
-            <h3 className='text-2xl mb-2'>Fries</h3>
-            <p className='mb-2'>Large</p>
-            <p className='text-2xl'>1.350 kr.</p>
-            <p className='mb-2'>Small</p>
-            <p className='text-2xl'>850 kr.</p>
+            <h3 className='text-2xl mb-2'>Vegetarian</h3>
+            <p className='mb-5'>Marinara, mozzarella, mushrooms, red onions, tomatoes, olives, bell peppers</p>
+            <p className='text-2xl'>11" 3.250 kr.</p>
+            <p className='text-2xl'>15" 4.150 kr.</p>
           </div>
         </div>
 
         <div class="starter">
-          <img src="./onion.jpeg" alt=""  className="w-25 h-25"  />
+          <img src="./quatro.jpeg" alt=""  className="w-25 h-25"  />
           <div class="description">
-            <h3 className='text-2xl mb-2'>Sauces</h3>
-            <p className='mb-5'>Icelandic cocktail, mayonnaise, homemade tartar</p>
-            <p className='text-2xl'>450 kr.</p>
+            <h3 className='text-2xl mb-2'>Quattro Carne</h3>
+            <p className='mb-5'>Marinara, mozzarella, pepperoni, smoked bacon, ham, bacon bits</p>
+            <p className='text-2xl'>11" 3.650 kr.</p>
+            <p className='text-2xl'>15" 4.350 kr.</p>
           </div>
         </div>
           
           </div>
+
+          <div className='row'>
+
+
+<div class="starter">
+  <img src="./carbonara.jpeg" alt=""  className="w-25 h-25"  />
+  <div class="description">
+    <h3 className='text-2xl mb-2'>Carbonara</h3>
+    <p className='mb-5'>Egg sauce, mozzarella, smoked bacon, jalapenos</p>
+    <p className='text-2xl'>11" 2.950 kr.</p>
+    <p className='text-2xl'>15" 3.750 kr.</p>
+  </div>
+</div>
+
+<div class="starter">
+  <img src="./formaggi.jpeg" alt=""  className="w-25 h-25"  />
+  <div class="description">
+    <h3 className='text-2xl mb-2'>Quattro Formaggi</h3>
+    <p className='mb-5'>Mozzarella, blue cheese, fresh mozzarella, cream cheese, blueberry jam</p>
+    <p className='text-2xl'>11" 3.250 kr.</p>
+    <p className='text-2xl'>15" 4.150 kr.</p>
+  </div>
+</div>
+
+<div class="starter">
+  <img src="./calzone.jpeg" alt=""  className="w-25 h-25"  />
+  <div class="description">
+    <h3 className='text-2xl mb-2'>Calzone</h3>
+    <p className='mb-5'>Half moon with marinara, mozzarella, ham and mushrooms</p>
+    <p className='text-2xl'> 3.250 kr.</p>
+  </div>
+</div>
+  
+  </div>
+  <div className='row'>
+  <div class="starter">
+  <div class="description">
+    <h3 className='text-2xl mb-2'>Extra toppings</h3>
+    <p className='text-2xl'>11" 450 kr.</p>
+    <p className='text-2xl'>15" 650 kr.</p>
+  </div>
+  </div>
+</div>
           
        
-
+  
        
       </div>
 
@@ -400,20 +447,18 @@ const Menus = () => {
 
           <div className='row'>
         <div className="starter ">
-          <img src="./newcaprese.jpg" alt="" className=" w-88 h-48 " />
+          <img src="./" alt="" className=" w-88 h-48 " />
           <div className="description">
-            <h3 className='text-2xl'>Caprese Salad</h3>
-            <p>Fresh mozzarella, tomatoes, basil, olive oil and balsamic vinegar</p>
-            <p className='text-2xl'>2.450 kr.</p>
+            <h3 className='text-2xl'>Chocolate Lava Cake</h3>
+            <p className='text-2xl'>1.950 kr.</p>
           </div>
         </div>
 
         <div class="starter">
-          <img src="./calamari.jpeg" alt=""  className=" w-88 h-48 "/>
+          <img src="./" alt=""  className=" w-88 h-48 "/>
           <div class="description">
-            <h3 className='text-2xl mb-2'>Calamari</h3>
-            <p className='mb-5'>Battered squid rings served with homemade tartar sauce</p>
-            <p className='text-2xl'>1.950 kr.</p>
+            <h3 className='text-2xl mb-2'>Apple Tartlet</h3>
+            <p className='text-2xl'>2.150 kr.</p>
           </div>
         </div>
 
@@ -430,28 +475,28 @@ const Menus = () => {
 
           <div className='row'>
         <div className="starter ">
-          <img src="./newcaprese.jpg" alt="" className=" w-88 h-48 " />
+          <img src="./" alt="" className=" w-88 h-48 " />
           <div className="description">
-            <h3 className='text-2xl'>Caprese Salad</h3>
-            <p>Fresh mozzarella, tomatoes, basil, olive oil and balsamic vinegar</p>
-            <p className='text-2xl'>2.450 kr.</p>
-          </div>
-        </div>
-
-        <div class="starter">
-          <img src="./calamari.jpeg" alt=""  className=" w-88 h-48 "/>
-          <div class="description">
-            <h3 className='text-2xl mb-2'>Calamari</h3>
-            <p className='mb-5'>Battered squid rings served with homemade tartar sauce</p>
+            <h3 className='text-2xl'>The "I don't know"</h3>
+            <p>Hamburger with burger sauce and fries (we can add cheese, lettuce and tomato)</p>
             <p className='text-2xl'>1.950 kr.</p>
           </div>
         </div>
 
         <div class="starter">
-          <img src="./calamari.jpeg" alt=""  className=" w-88 h-48 "/>
+          <img src="./" alt=""  className=" w-88 h-48 "/>
           <div class="description">
-            <h3 className='text-2xl mb-2'>Calamari</h3>
-            <p className='mb-5'>Battered squid rings served with homemade tartar sauce</p>
+            <h3 className='text-2xl mb-2'>The "I don't care"</h3>
+            <p className='mb-5'>Dinosaur nuggets and fries</p>
+            <p className='text-2xl'>1.950 kr.</p>
+          </div>
+        </div>
+
+        <div class="starter">
+          <img src="./" alt=""  className=" w-88 h-48 "/>
+          <div class="description">
+            <h3 className='text-2xl mb-2'>The "I want dominos's"</h3>
+            <p className='mb-5'>Pizza with cheese and marinara sauce</p>
             <p className='text-2xl'>1.950 kr.</p>
           </div>
         </div>
@@ -510,31 +555,47 @@ const Menus = () => {
 
           <div className='row'>
         <div className="starter ">
-          <img src="./newcaprese.jpg" alt="" className=" w-88 h-48 " />
+          <img src="./tcoke.png" alt="" className=" w-88 h-48 " />
           <div className="description">
-            <h3 className='text-2xl'>Caprese Salad</h3>
-            <p>Fresh mozzarella, tomatoes, basil, olive oil and balsamic vinegar</p>
-            <p className='text-2xl'>2.450 kr.</p>
+            <h3 className='text-2xl'>Coke</h3>
+            <p className='text-2xl'>600 kr.</p>
           </div>
         </div>
 
         <div class="starter">
-          <img src="./calamari.jpeg" alt=""  className=" w-88 h-48 "/>
+          <img src="./tcokezero.png" alt=""  className=" w-88 h-48 "/>
           <div class="description">
-            <h3 className='text-2xl mb-2'>Calamari</h3>
-            <p className='mb-5'>Battered squid rings served with homemade tartar sauce</p>
-            <p className='text-2xl'>1.950 kr.</p>
+            <h3 className='text-2xl mb-2'>Coke Zero</h3>
+            <p className='text-2xl'>600 kr.</p>
           </div>
         </div>
 
         <div class="starter">
-          <img src="./calamari.jpeg" alt=""  className=" w-88 h-48 "/>
+          <img src="./tfanta.png" alt=""  className=" w-88 h-48 "/>
           <div class="description">
-            <h3 className='text-2xl mb-2'>Calamari</h3>
-            <p className='mb-5'>Battered squid rings served with homemade tartar sauce</p>
-            <p className='text-2xl'>1.950 kr.</p>
+            <h3 className='text-2xl mb-2'>Fanta</h3>
+            <p className='text-2xl'>600 kr.</p>
           </div>
         </div>
+        </div>
+
+        <div className='row'>
+        <div className="starter ">
+          <img src="./tsprite.png" alt="" className=" w-88 h-48 " />
+          <div className="description">
+            <h3 className='text-2xl'>Sprite Zero</h3>
+            <p className='text-2xl'>600 kr.</p>
+          </div>
+        </div>
+
+        <div class="starter">
+          <img src="./toppur.png" alt=""  className=" w-88 h-48 "/>
+          <div class="description">
+            <h3 className='text-2xl mb-2'>Toppur Soda water</h3>
+            <p className='text-2xl'>600 kr.</p>
+          </div>
+        </div>
+
 
 
       

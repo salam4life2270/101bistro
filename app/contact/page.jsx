@@ -11,7 +11,7 @@ const Contact = () => {
       Austurstræti 3, 101 Reykjavík, Iceland
       </p>
       <p className="text-lg mb-4">
-       101b@101bistro
+       101b@101bistro.is
       </p>
       <p className="text-lg mb-4">
         +3545880015
@@ -24,7 +24,7 @@ const Contact = () => {
       <h1 className="text-center text-2xl mb-4" >Opening Hours</h1>
       <p className="text-2xl text-center font-cursive italic mx-4">Come Visit</p>
       <p className="text-lg mb-4 mt-4">
-      Mon - Fri: 11:00am - 10:30pm
+      Mon - Sun: 11:00am - 10:30pm
       </p>
       </section>
     </div>
