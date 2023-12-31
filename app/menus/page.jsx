@@ -10,34 +10,34 @@ const Menus = () => {
       </div>
 
       <div className="row">
-        <button className="mr-4">
+        <button className="menu-button mr-4">
           <a href="#starters">STARTERS AND SIDES</a>
         </button>
-        <button className="mr-4">
+        <button className="menu-button mr-4">
           <a href="#salads">SALADS</a>
         </button>
-        <button className="mr-4">
+        <button className="menu-button mr-4">
           <a href="#main-dishes">MAIN DISHES</a>
         </button>
-        <button className="mr-4">
+        <button className="menu-button mr-4">
           <a href="#burgers">BURGERS</a>
         </button>
-        <button className="mr-4">
+        <button className="menu-button mr-4">
           <a href="#pizzas">PIZZAS</a>
         </button>
-        <button className="mr-4">
+        <button className="menu-button mr-4">
           <a href="#desserts">DESSERTS</a>
         </button>
-        <button className="mr-4">
+        <button className="menu-button mr-4">
           <a href="#kids-menu">KIDS MENU</a>
         </button>
-        <button className="mr-4">
+        <button className="menu-button mr-4">
           <a href="#alcoholic-drinks">ALCOHOLIC DRINKS</a>
         </button>
-        <button className="mr-4">
+        <button className="menu-button mr-4">
           <a href="#soft-drinks">SOFT DRINKS</a>
         </button>
-        <button className="mr-4">
+        <button className="menu-button mr-4">
           <a href="#hot-drinks">HOT DRINKS</a>
         </button>
       </div>
