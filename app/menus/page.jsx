@@ -9,7 +9,40 @@ const Menus = () => {
         <h1 className="text-center italic mb-4">For allergy/intolerance information please call us: +354 588-0015</h1>
       </div>
 
-      <div className="text-center text-2xl">
+      <div className="row">
+        <button className="mr-4">
+          <a href="#starters">STARTERS AND SIDES</a>
+        </button>
+        <button className="mr-4">
+          <a href="#salads">SALADS</a>
+        </button>
+        <button className="mr-4">
+          <a href="#main-dishes">MAIN DISHES</a>
+        </button>
+        <button className="mr-4">
+          <a href="#burgers">BURGERS</a>
+        </button>
+        <button className="mr-4">
+          <a href="#pizzas">PIZZAS</a>
+        </button>
+        <button className="mr-4">
+          <a href="#desserts">DESSERTS</a>
+        </button>
+        <button className="mr-4">
+          <a href="#kids-menu">KIDS MENU</a>
+        </button>
+        <button className="mr-4">
+          <a href="#alcoholic-drinks">ALCOHOLIC DRINKS</a>
+        </button>
+        <button className="mr-4">
+          <a href="#soft-drinks">SOFT DRINKS</a>
+        </button>
+        <button className="mr-4">
+          <a href="#hot-drinks">HOT DRINKS</a>
+        </button>
+      </div>
+
+      <div id="starters" className="text-center text-2xl">
         <h2>STARTERS AND SIDES</h2> 
       </div>
 
@@ -51,7 +84,7 @@ const Menus = () => {
           <div className='row'>
 
         <div class="starter">
-          <img src="./garlicb.jpeg" alt=""  className=" w-88 h-48 "  />
+          <img src="" alt=""  className=" w-88 h-48 "  />
           <div class="description">
             <h3 className='text-2xl mb-2'>Mozzarella Sticks</h3>
             <p className='mb-5'>Deep fried mozzarella sticks, served with fries and marinara sauce</p>
@@ -60,7 +93,7 @@ const Menus = () => {
         </div>
 
         <div className="starter">
-          <img src="./onion.jpeg" alt=""  className=" w-88 h-48 "  />
+          <img src="" alt=""  className=" w-88 h-48 "  />
           <div className="description">
             <h3 className='text-2xl'>Baba Ganoush</h3>
             <p>Charred eggplants, yogurt, walnuts, garlic and olive oil</p>
@@ -69,7 +102,7 @@ const Menus = () => {
         </div>
 
         <div class="starter">
-          <img src="./calamari.jpeg" alt=""  className=" w-88 h-48 "  />
+          <img src="" alt=""  className=" w-88 h-48 "  />
           <div class="description">
             <h3 className='text-2xl mb-2'>Hummus</h3>
             <p className='mb-5'>Mashed chickpeas, tahini, olive oil</p>
@@ -104,7 +137,6 @@ const Menus = () => {
         </div>
 
         <div class="starter">
-          <img src="./onion.jpeg" alt=""  className="w-25 h-25"  />
           <div class="description">
             <h3 className='text-2xl mb-2'>Sauces</h3>
             <p className='mb-5'>Icelandic cocktail, mayonnaise, homemade tartar</p>
@@ -119,7 +151,7 @@ const Menus = () => {
        
       </div>
 
-      <div className="text-center text-2xl">
+      <div id="salads" className="text-center text-2xl">
         <h2>SALADS</h2> 
       </div>
 
@@ -129,7 +161,7 @@ const Menus = () => {
 
           <div className='row'>
         <div className="starter ">
-          <img src="./newcaprese.jpg" alt="" className=" w-88 h-48 " />
+          <img src="" alt="" className=" w-88 h-48 " />
           <div className="description">
             <h3 className='text-2xl'>House Salad</h3>
             <p>Mixed greens, tomatoes, red onions, olive oil and lemon dressing</p>
@@ -165,7 +197,7 @@ const Menus = () => {
        
       </div>
 
-      <div className="text-center text-3xl">
+      <div id="main-dishes" className="text-center text-3xl">
         <h2>MAIN DISHES</h2> 
       </div>
 
@@ -215,7 +247,7 @@ const Menus = () => {
         </div>
 
         <div className="starter">
-          <img src="./onion.jpeg" alt=""  className=" w-88 h-48 "  />
+          <img src="#" alt=""  className=" w-88 h-48 "  />
           <div className="description">
             <h3 className='text-2xl'>Mediterranean Platter</h3>
             <p>Spicy chicken-vegetable casserole served with rice, eggplant yogurt dip, onion salad and homemade flat bread</p>
@@ -234,7 +266,7 @@ const Menus = () => {
        
       </div>
 
-      <div className="text-center text-2xl">
+      <div id="burgers" className="text-center text-2xl">
         <h2>BURGERS</h2> 
       </div>
 
@@ -259,7 +291,7 @@ const Menus = () => {
         </div>
 
         <div class="starter">
-          <img src="./calamari.jpeg" alt=""  className=" w-88 h-48 "/>
+          <img src="#" alt=""  className=" w-88 h-48 "/>
           <div class="description">
             <h3 className='text-2xl mb-2'>Oh My Cod!</h3>
             <p className='mb-5'>Our famous deep fried battered fish, tomato, lettuce and homemade tartar sauce</p>
@@ -279,7 +311,7 @@ const Menus = () => {
        
       </div>
 
-      <div className="text-center text-3xl">
+      <div id="pizzas" className="text-center text-3xl">
         <h2>PIZZAS</h2> 
       </div>
 
@@ -438,7 +470,7 @@ const Menus = () => {
        
       </div>
 
-      <div className="text-center text-3xl">
+      <div id="desserts"className="text-center text-3xl">
         <h2>DESSERTS</h2> 
       </div>
 
@@ -447,7 +479,6 @@ const Menus = () => {
 
           <div className='row'>
         <div className="starter ">
-          <img src="./" alt="" className=" w-88 h-48 " />
           <div className="description">
             <h3 className='text-2xl'>Chocolate Lava Cake</h3>
             <p className='text-2xl'>1.950 kr.</p>
@@ -455,7 +486,6 @@ const Menus = () => {
         </div>
 
         <div class="starter">
-          <img src="./" alt=""  className=" w-88 h-48 "/>
           <div class="description">
             <h3 className='text-2xl mb-2'>Apple Tartlet</h3>
             <p className='text-2xl'>2.150 kr.</p>
@@ -466,16 +496,17 @@ const Menus = () => {
           </div>
       </div>
 
-      <div className="text-center text-3xl">
+      <div id="kids-menu"className="text-center text-3xl">
         <h2>KIDS MENU</h2> 
       </div>
+        <p>12 years old and younger</p>
 
       <div className='container'>
+        <p className='kid-free'>ALL FOOD COMES WITH A SODA OR JUICE AND A VANILLA ICE POP/POPSICLE</p>
         
 
           <div className='row'>
         <div className="starter ">
-          <img src="./" alt="" className=" w-88 h-48 " />
           <div className="description">
             <h3 className='text-2xl'>The "I don't know"</h3>
             <p>Hamburger with burger sauce and fries (we can add cheese, lettuce and tomato)</p>
@@ -484,7 +515,6 @@ const Menus = () => {
         </div>
 
         <div class="starter">
-          <img src="./" alt=""  className=" w-88 h-48 "/>
           <div class="description">
             <h3 className='text-2xl mb-2'>The "I don't care"</h3>
             <p className='mb-5'>Dinosaur nuggets and fries</p>
@@ -493,7 +523,6 @@ const Menus = () => {
         </div>
 
         <div class="starter">
-          <img src="./" alt=""  className=" w-88 h-48 "/>
           <div class="description">
             <h3 className='text-2xl mb-2'>The "I want dominos's"</h3>
             <p className='mb-5'>Pizza with cheese and marinara sauce</p>
@@ -506,7 +535,7 @@ const Menus = () => {
           </div>
       </div>
 
-      <div className="text-center text-3xl">
+      <div id="alcoholic-drinks"className="text-center text-3xl">
         <h2>ALCOHOLIC DRINKS</h2> 
       </div>
 
@@ -515,38 +544,59 @@ const Menus = () => {
 
           <div className='row'>
         <div className="starter ">
-          <img src="./newcaprese.jpg" alt="" className=" w-88 h-48 " />
           <div className="description">
-            <h3 className='text-2xl'>Caprese Salad</h3>
-            <p>Fresh mozzarella, tomatoes, basil, olive oil and balsamic vinegar</p>
-            <p className='text-2xl'>2.450 kr.</p>
+            <h3 className='text-3xl'>Beer Draught</h3>
+            <h2 className='text-2xl'>Viking Gold</h2>
+            <p>330ml 1.350 kr.</p>
+            <p>500ml 1.450 kr.</p>
+
+            <h2 className='text-2xl'>Thule</h2>
+            <p>330ml 1.250 kr.</p>
+            <p>500ml 1.550 kr.</p>
           </div>
         </div>
 
-        <div class="starter">
-          <img src="./calamari.jpeg" alt=""  className=" w-88 h-48 "/>
-          <div class="description">
-            <h3 className='text-2xl mb-2'>Calamari</h3>
-            <p className='mb-5'>Battered squid rings served with homemade tartar sauce</p>
-            <p className='text-2xl'>1.950 kr.</p>
+        <div className="starter ">
+          <div className="description">
+            <h3 className='text-3xl'>Beer Bottle</h3>
+            <h2 className='text-2xl'>Einstok White Ale</h2>
+            <p>330ml 1.850 kr.</p>
+
+            <h2 className='text-2xl'>Heineken</h2>
+
+            <p>330ml 1.350 kr.</p>
+            <h2 className='text-2xl'>Desperados</h2>
+            <p>330ml 1.350 kr.</p>
+
+            <h2 className='text-2xl'>Crabbie's ginger</h2>
+            <p>330ml 1.350 kr.</p>
+
+            
+          </div>
+        </div>
+        <div className="starter ">
+          <div className="description">
+            <h3 className='text-3xl'>Wine Bottle</h3>
+            <h2 className='text-2xl'>House Red Wine</h2>
+            <p>187ml 1.550 kr.</p>
+            <p>750ml 7.950 kr.</p>
+
+            <h2 className='text-2xl'>House White Wine</h2>
+            <p>187ml 1.550 kr.</p>
+            <p>750ml 7.950 kr.</p>
           </div>
         </div>
 
-        <div class="starter">
-          <img src="./calamari.jpeg" alt=""  className=" w-88 h-48 "/>
-          <div class="description">
-            <h3 className='text-2xl mb-2'>Calamari</h3>
-            <p className='mb-5'>Battered squid rings served with homemade tartar sauce</p>
-            <p className='text-2xl'>1.950 kr.</p>
-          </div>
-        </div>
+        
+        
+        
 
 
       
           </div>
       </div>
 
-      <div className="text-center text-3xl">
+      <div id="soft-drinks" className="text-center text-3xl">
         <h2>SOFT DRINKS</h2> 
       </div>
 
@@ -591,7 +641,7 @@ const Menus = () => {
         <div class="starter">
           <img src="./toppur.png" alt=""  className=" w-88 h-48 "/>
           <div class="description">
-            <h3 className='text-2xl mb-2'>Toppur Soda water</h3>
+            <h3 className='text-2xl mb-2'>Carbonated Water</h3>
             <p className='text-2xl'>600 kr.</p>
           </div>
         </div>
@@ -603,7 +653,7 @@ const Menus = () => {
       </div>
 
 
-      <div className="text-center text-3xl">
+      <div id="hot-drinks" className="text-center text-3xl">
         <h2>HOT DRINKS</h2> 
       </div>
 
@@ -612,31 +662,66 @@ const Menus = () => {
 
           <div className='row'>
         <div className="starter ">
-          <img src="./newcaprese.jpg" alt="" className=" w-88 h-48 " />
           <div className="description">
-            <h3 className='text-2xl'>Caprese Salad</h3>
-            <p>Fresh mozzarella, tomatoes, basil, olive oil and balsamic vinegar</p>
-            <p className='text-2xl'>2.450 kr.</p>
+            <h3 className='text-2xl'>Americano</h3>
+            <p className='text-2xl'>600 kr.</p>
           </div>
         </div>
 
         <div class="starter">
-          <img src="./calamari.jpeg" alt=""  className=" w-88 h-48 "/>
+          
           <div class="description">
-            <h3 className='text-2xl mb-2'>Calamari</h3>
-            <p className='mb-5'>Battered squid rings served with homemade tartar sauce</p>
-            <p className='text-2xl'>1.950 kr.</p>
+            <h3 className='text-2xl mb-2'>Expresso</h3>
+            <p className='text-2xl'>600 kr.</p>
+          </div>
+        </div>
+        <div class="starter">
+          <div class="description">
+            <h3 className='text-2xl mb-2'>Latte</h3>
+            <p className='text-2xl'>650 kr.</p>
+          </div>
+        </div>
+
+
+        <div class="starter">
+          <div class="description">
+            <h3 className='text-2xl mb-2'>Cappuccino</h3>
+            <p className='text-2xl'>650 kr.</p>
+          </div>
+        </div>
+
+
+      
+          </div>
+
+          <div className='row'>
+        <div className="starter ">
+          <div className="description">
+            <h3 className='text-2xl'>English Breakfast Tea</h3>
+            <p className='text-2xl'>550 kr.</p>
           </div>
         </div>
 
         <div class="starter">
-          <img src="./calamari.jpeg" alt=""  className=" w-88 h-48 "/>
           <div class="description">
-            <h3 className='text-2xl mb-2'>Calamari</h3>
-            <p className='mb-5'>Battered squid rings served with homemade tartar sauce</p>
-            <p className='text-2xl'>1.950 kr.</p>
+            <h3 className='text-2xl mb-2'>Earl Gray Tea</h3>
+            <p className='text-2xl'>550 kr.</p>
           </div>
         </div>
+        <div class="starter">
+          <div class="description">
+            <h3 className='text-2xl mb-2'>Green Tea</h3>
+            <p className='text-2xl'>550 kr.</p>
+          </div>
+        </div>
+
+        <div class="starter">
+          <div class="description">
+            <h3 className='text-2xl mb-2'>Hot Chocolate</h3>
+            <p className='text-2xl'>750 kr.</p>
+          </div>
+        </div>
+
 
 
       

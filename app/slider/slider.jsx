@@ -33,18 +33,30 @@ const Slider = () => {
     '/kebab1.jpeg',
     './bistro.jpg',
     './ovenfire.jpeg',
-    './woodfire.jpeg',
+    './woodfire.jpeg'
     // Add more image URLs here
   ];
 
-  const nextSlide = () => {
-    setCurrentSlide((prevSlide) => (prevSlide + 1) % images.length);
+  const goToSlide = (index) => {
+    setCurrentSlide(index);
   };
 
-  const prevSlide = () => {
-    setCurrentSlide((prevSlide) => (prevSlide - 1 + images.length) % images.length);
+  const goBack = () => {
+    if (currentSlide > 0) {
+      setCurrentSlide((prevSlide) => prevSlide - 1);
+    }
   };
 
+  const goToNext = () => {
+    if (currentSlide < images.length - 1) {
+      setCurrentSlide((prevSlide) => prevSlide + 1);
+    }
+  };
+  
+
+  const onFirstSlide = currentSlide === 0;
+  const onLastSlide = currentSlide >= images.length - 1;
+  console.log(onLastSlide)
   return (
     <div id='gallery' className="relative p-8 ">
       <h1 className="text-center text-3xl mb-4">Gallery</h1>
@@ -58,7 +70,9 @@ const Slider = () => {
               key={index}
               src={image}
               alt={`Slide ${index + 1}`}
-              className={`w-full h-full object-cover`}
+              width="400"
+              height="700"
+             /* className={`w-400 h-700 object-cover`}*/
             />
           ))}
         </div>
@@ -66,7 +80,7 @@ const Slider = () => {
       <div className="absolute inset-y-0 left-0 flex items-center justify-center">
         <button
           className="bg-gray-800 text-white p-2 rounded-full hover:bg-gray-600 focus:outline-none"
-          onClick={prevSlide}
+          onClick={goBack} disabled={onFirstSlide}
         >
           &lt;
         </button>
@@ -74,8 +88,8 @@ const Slider = () => {
       <div className="absolute inset-y-0 right-0 flex items-center justify-center">
         <button
           className="bg-gray-800 text-white p-2 rounded-full hover:bg-gray-600 focus:outline-none"
-          onClick={nextSlide}
-        >
+          onClick={goToNext} disabled={onLastSlide}
+          >
           &gt;
         </button>
       </div>
